@@ -1,0 +1,127 @@
+html {
+    margin: 0;
+    padding: 0;
+    border : 1px solid black;
+    font-family: Arial;
+}
+.title {
+    width: 95%;
+    height: 70px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+.logo {
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+.admin_menu {
+    width: 90%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.admin_menu .res_name {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 170%;
+}
+.admin_menu .admin {
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 5px;
+}
+.main{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.left_nav {
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.categories{
+    border: 1px solid black;
+    height: 50px;
+}
+.categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    /* justify-content: center; */
+}
+.categories ul li {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid hotpink; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories ul li button {
+    font-size: 18px;
+}
+.food_items{
+    border: 1px solid black;
+    height: 400px;
+}
+.right_nav {
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+}
+.footer {
+    border: 1px solid black;
+    margin: auto;
+    width: 95%;
+    display: flex;
+}
+.selected_items {
+    width: 80%;
+    border: 1px solid black;
+    /* margin: auto; */
+    height: 200px;
+}
+.selected_items table {
+    width: 90%;
+    margin: auto;
+    /* height: 50px; */
+}
+.selected_items table tr th {
+    border: 1px solid black;
+    height: auto;
+    word-wrap: break-word;
+}
+.amount {
+    border: 1px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.amount .button1 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(252, 255, 228);
+    border: 1px solid black;
+    color: brown;
+
+}
+/* 
+.new-bill{
+    background-color: aquamarine;
+} */
