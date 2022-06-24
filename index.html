@@ -1,57 +1,71 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="project.css">
-        <title></title>
-    </head>
-    <body style="border:none;">
-        <div class="title">
-            
-            <div class="logo"></div>
-            <div class="admin_menu">
-                <div class="res_name"><strong>Restaurant Billing System</strong></div>
-                <div class="admin"><a href="admin.html" target="_blank">Admin</a></div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="left_nav">
-                <div class="categories">
-                    <ul>
-                        <li><button>Thali</button></li>
-                        <li><button>Momos</button></li>
-                        <li><button>Thupka</button></li>
-                        <li><button>Chowmein</button></li>
-                        <li><button>Sikkimesse Noodles</button></li>
-                        <li><button>Spring Roll</button></li>
-                        <li><button>Chicken</button></li>
-                        <li><button>Chopsuey</button></li>
-                        <li><button>Rice</button></li>
-                    </ul>
-                </div>
 
-                <div class="food_items"></div>
-            </div>
-            <div class="right_nav">
-            
-            </div>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="project.css">
+    <script src="project.js"></script>
+</head>
+
+<body style="border:none;">
+    <div class="title">
+        <!-- <script>
+            function print_manu() {
+                /* // for (let i = 0; i < 5; i++) {
+                //     <h1>HI</h1>;
+                //     <br></br>;
+                // } */
+                console.log("dvBBAS");
+            }
+        </script> -->
+
+        <div class="logo"></div>
+        <div class="admin_menu">
+            <div class="res_name"><strong>Restaurant Billing System</strong></div>
+            <div class="admin"><a href="admin.html" target="_blank">Admin</a></div>
         </div>
-        <div class="footer">
-            <div class="selected_items">
-                <table>
-                    <tr>
-                        <th style="width: 50px">Sr. NO.</th>
-                        <th style="width: 400px;">Item</th>
-                        <th>Quantity</th>
-                        <th>Amount</th>
-                        <th>GST</th>
-                        <th style="width: 150px">Total Amount<br>` (inc. GST)</th>
-                    </tr>
-                </table>
+    </div>
+    <div class="main">
+        <div class="left_nav">
+            <div class="categories">
+                <ul>
+                    <li><button id="1" onclick="print_manu()">Thali</button></li>
+                    <li><button>Snacks</button></li>
+                    <li><button>Dosa/Uttapam</button></li>
+                    <li><button>Pakoda</button></li>
+                    <li><button>Pav Bhaji</button></li>
+                    <li><button>Sandwich</button></li>
+                    <li><button>Pizza</button></li>
+                    <li><button>Cold & Hot</button></li>
+                    <li><button>Speciality</button></li>
+                </ul>
             </div>
-            <div class="amount">
-                <button onclick="javascript:window.open('index.html', '_blank');">New Bill</button>
-                <button onclick="javascript:window.open('index.html', '_self');">Refresh</button>
-                <button onclick="javascript:window.open('NULL', '_blank');">Submit</button> 
-            </div>
+
+            <div class="food_items"></div>
         </div>
-    </body>
+        <div class="right_nav">
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="selected_items" id="at">
+            <table>
+                <tr>
+                    <th style="width: 50px">Sr. NO.</th>
+                    <th style="width: 400px;">Item</th>
+                    <th>Quantity</th>
+                    <th>Amount</th>
+                    <th>GST</th>
+                    <th style="width: 150px">Total Amount<br>` (inc. GST)</th>
+                </tr>
+            </table>
+        </div>
+        <div class="amount">
+            <button onclick="javascript:window.open('index.html', '_blank');">New Bill</button>
+            <button onclick="javascript:window.open('index.html', '_self');">Refresh</button>
+            <button onclick="javascript:window.open('NULL', '_blank');">Submit</button>
+        </div>
+    </div>
+
+</body>
+
 </html>
